@@ -4,7 +4,7 @@ const tmp = require('tmp-promise');
 
 const yarrrml_parser = './node_modules/yarrrml-parser/bin/cli.js';
 
-module.exports = function yarrrml2ld = function(options) {
+module.exports = function yarrrml2ld(options) {
     let rmlmapper = options.rmlmapper;
     
 
