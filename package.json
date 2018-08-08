@@ -1,0 +1,25 @@
+{
+  "name": "yarrrml2ld",
+  "version": "0.0.0",
+  "description": "Converts yarrrml to linked data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amohoste/yarrrml2ld.git"
+  },
+  "author": "Amory Hoste <amory.hoste@ugent.be> (https://amoryhoste.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amohoste/yarrrml2ld/issues"
+  },
+  "homepage": "https://github.com/amohoste/yarrrml2ld#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs-extra": "^7.0.0",
+    "tmp-promise": "^1.0.5",
+    "yarrrml-parser": "git+https://github.com/RMLio/yarrrml-parser.git"
+  }
+}
