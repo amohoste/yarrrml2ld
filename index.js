@@ -2,7 +2,7 @@ const childProcess = require('child_process');
 const fs = require('fs-extra');
 const tmp = require('tmp-promise');
 
-const yarrrml_parser = './node_modules/yarrrml-parser/bin/cli.js';
+const yarrrml_parser = './node_modules/@rmlio/yarrrml-parser/bin/cli.js';
 
 module.exports = function yarrrml2ld(options) {
     let rmlmapper = options.rmlmapper;

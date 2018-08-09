@@ -1,6 +1,6 @@
 {
   "name": "yarrrml2ld",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Converts yarrrml to linked data",
   "main": "index.js",
   "scripts": {
@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/amohoste/yarrrml2ld#readme",
   "dependencies": {
+    "@rmlio/yarrrml-parser": "^0.1.4",
     "child_process": "^1.0.2",
     "fs-extra": "^7.0.0",
-    "tmp-promise": "^1.0.5",
-    "yarrrml-parser": "git+https://github.com/RMLio/yarrrml-parser.git"
+    "tmp-promise": "^1.0.5"
   }
 }
