@@ -23,7 +23,7 @@ module.exports = function yarrrml2ld(options) {
 
         return Promise.all([rml_file_tmp, linked_file_tmp, executed]);
     }).then(([rml_file_tmp, linked_file_tmp]) => {
-        let arguments = ['-jar', rmlmapper, '-m', rml_file_tmp, '-o', linked_file_tmp];
+        let arguments = ['-jar', rmlmapper, '-m', rml_file_tmp, '-o', linked_file_tmp, '-d'];
 
         if (options.hasOwnProperty('functions')) {
             arguments.push('-f');
