@@ -56,7 +56,7 @@ function getLinkedData(path) {
     });
 
     return Promise.all(promises).then((data) => {
-        return data.join().toString();
+        return data.join('\n').toString();
     });
 }
 
