@@ -1,6 +1,6 @@
 {
   "name": "yarrrml2ld",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Converts yarrrml to linked data",
   "main": "index.js",
   "scripts": {
