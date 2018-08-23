@@ -3,7 +3,7 @@ const fs = require('fs-extra');
 const tmp = require('tmp-promise');
 const path = require('path');
 
-const yarrrml_parser = path.join(__dirname, '/node_modules/@rmlio/yarrrml-parser/bin/cli.js');
+const yarrrml_parser = './node_modules/@rmlio/yarrrml-parser/bin/cli.js';
 
 module.exports = function yarrrml2ld(options) {
     let rmlmapper = options.rmlmapper;
