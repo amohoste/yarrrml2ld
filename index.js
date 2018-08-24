@@ -4,10 +4,9 @@ const tmp = require('tmp-promise');
 const path = require('path');
 
 const yarrrml_parser = './node_modules/@rmlio/yarrrml-parser/bin/cli.js';
+const rmlmapper = path.join(__dirname, 'rmlmapper-java/rmlmapper-java.jar');
 
-module.exports = function yarrrml2ld(options) {
-    let rmlmapper = options.rmlmapper;
-    
+module.exports = function yarrrml2ld(options) {    
 
     let rml_file_tmp = tmp.file().then((file) => {
         return file.path;

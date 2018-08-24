@@ -1,10 +1,11 @@
 {
   "name": "yarrrml2ld",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Converts yarrrml to linked data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "sh ./install_rmlmapper.sh"
   },
   "repository": {
     "type": "git",
