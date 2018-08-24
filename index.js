@@ -65,7 +65,7 @@ function getLinkedData(path) {
 function executeNodeScript(path, args) {
     return new Promise((resolve, reject) => {
 
-        let process = childProcess.fork(path, args);
+        let process = childProcess.spawn('node', [path].concat(args));
 
         // listen for errors as they may prevent the exit event from firing
         process.on('error', (err) => {
